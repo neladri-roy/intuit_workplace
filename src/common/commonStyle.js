@@ -43,7 +43,7 @@ export const Input = styled.input`
   min-width: 40rem;
   background-color: #f5f5f5;
   border: none;
-  margin: 1rem;
+  margin: 1rem 0rem;
   font-size: 1.6rem;
   border-radius: 10px;
 `;
@@ -57,14 +57,14 @@ export const Label = styled.label`
 export const SecHeader= styled.div `
 display: flex;
 //justify-content: space-between;
-margin: 2rem;
+// margin: 2rem;
     `
 
 export const Form = styled.form``;
 
 export const StyledTable = styled.table`
   border-collapse: collapse;
-  margin: 25px 25px;
+  // margin: 25px 25px;
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 400px;

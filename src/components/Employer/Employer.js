@@ -41,12 +41,12 @@ const Employer = () => {
   },[]);
 
   return (
-    <>
-      <Container style={{ marginTop: "15vh" }}>
+    <div style={{margin:"15vh 25px", padding:"10px"}}>
+      <Container>
         <div
           style={{
             background: `url(${EmployerImg})`,
-            height: "300px",
+            height: "100vh",
             position: "absolute",
             width: "500px",
             top: 0,
@@ -54,32 +54,35 @@ const Employer = () => {
           }}
         ></div>
       </Container>
-      <SecHeader>
-        <JobInput
-          placeholder="Search Jobs"
-          onChange={(e) => setSearchPostTxt(e.target.value)}
-        />
-        <Title>Employer Dashboard</Title>
-      </SecHeader>
-
-      <Table>
-        {data?.map((job) => (
-          <Card>
-            <JobSection>
-              <JobTitle key={job.jobtitle}> {`${job.jobtitle}`}</JobTitle>
-              <JobCompany key={job.company}>{`${job.companyname}`}</JobCompany>
-
-              <SkillsSection key={job.skills}> {`${job.skills}`}</SkillsSection>
-              <SalarySection key={job.salary}> {`${job.salary}`}</SalarySection>
-              <JobType key={job.jobtype}>{`${job.jobtype}`}</JobType>
-              <Link to="/applicants" state={{ ...job }}>
-                <StyledButton>Check Applicants</StyledButton>
-              </Link>
-            </JobSection>
-          </Card>
-        ))}
-      </Table>
-    </>
+      <h1><span>Company: </span>Intuit</h1>
+      <div style={{marginTop:"25px"}}>
+        <SecHeader>
+          <JobInput
+            placeholder="Search Jobs"
+            onChange={(e) => setSearchPostTxt(e.target.value)}
+          />
+          {/* <Title>Employer Dashboard</Title> */}
+        </SecHeader>
+  
+        <Table>
+        
+          {data?.map((job) => (
+            <Card>
+              <JobSection>
+                <JobTitle key={job.jobtitle}> {`${job.jobtitle}`}</JobTitle>
+                <SkillsSection key={job.skills}> {`${job.skills}`}</SkillsSection>
+                <SalarySection key={job.salary}> {`${job.salary}`}</SalarySection>
+                <JobType key={job.jobtype}>{`${job.jobtype}`}</JobType>
+                <Link to="/applicants" state={{ ...job }}>
+                  <StyledButton>Check Applicants</StyledButton>
+                </Link>
+              </JobSection>
+            </Card>
+          ))}
+        </Table>
+      </div>
+      
+    </div>
   );
 };
 

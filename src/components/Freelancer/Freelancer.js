@@ -1,17 +1,14 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState } from "react";
 import {
   Container,
   Label,
-  Section,
   StyledButton,
-  Form,
   Input,
 } from "../../common/commonStyle";
 import {
   SearchContainer,
   SearchBtn,
   ProfileBtn,
-  FreelancerImage,
   CloseModal,
 } from "./Freelancer.style";
 import FreelancerLogo from "../../assets/image.png";
@@ -20,8 +17,8 @@ import JobTable from "../JobListings/JobTable";
 
 const Freelancer = (props) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [submit, setSubmit] = useState(false);
-  const [githubProfiles, setGitHubProfiles] = useState('');
+  const [submit, setSubmit] = useState(false); 
+  const [validGithub, setValidGithub] = useState('');
   const [values, setValues] = useState({
     firstName: "",
     lastName: "",
@@ -48,11 +45,20 @@ const Freelancer = (props) => {
 
   const fetchGitHubProfiles =(event) =>{
     fetch("https://api.github.com/users/"+ values.github + "/repos")
-    .then((res) => res.json())
-    .then((json) => {
-        setGitHubProfiles(json);
+    .then((res) => {
+      const data = res.json();
+      if (!res.ok) {
+        const error = (data && data.message) || res.status;
+        return Promise.reject(error);
+      }
     })
-    console.log(githubProfiles);
+    .then((json) => {
+      setValidGithub("https://api.github.com/users/"+ values.github + "/repos");
+    })
+    .catch(error => {
+      alert('Invalid URL. Reponse code: ', error);
+  });
+    console.log(validGithub);
   }
 
   const handleSubmit = (event) => {
@@ -81,7 +87,18 @@ const Freelancer = (props) => {
             <CloseModal onClick={() => setModalIsOpen(false)}>X</CloseModal>
 
             <Label>Profile Settings</Label>
-            <form onSubmit={handleSubmit}>
+            <Input
+                type="text"
+                defaultValue={values.github}
+                onChange={handleGithubInputChange}
+                placeholder="Github Username"
+                name="github"
+              ></Input>
+              <StyledButton onClick={fetchGitHubProfiles} >Validate</StyledButton>
+              { validGithub ? (<span >
+              <a target="_blank" href={`${validGithub}`} rel="noreferrer">Github Link</a>
+              </span>) : null}
+              <form onSubmit={handleSubmit}>
               {submit ? (
                 <div className="success-message">Success! Changes Saved...</div>
               ) : null}
@@ -118,14 +135,7 @@ const Freelancer = (props) => {
                 placeholder="Skills"
                 name="skills"
               ></Input>
-              <Input
-                type="text"
-                defaultValue={values.github}
-                onChange={handleGithubInputChange}
-                placeholder="Github Username"
-                name="github"
-              ></Input>
-              <StyledButton onClick={fetchGitHubProfiles}>Search</StyledButton>
+              
               <div>
               
               {/* {githubProfiles &

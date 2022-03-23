@@ -4,7 +4,7 @@ export const  postedData = [
 		"jobtitle": "Software Intern",
 		"jobtype": "Contract",
 		"salary": "$71,947.12",
-		"skills": "Javascript, Typescript, CSS, React,",
+		"skills": "Javascript, Typescript, CSS, React",
 		"companyname": "Eget Volutpat Ornare Institute",
 		"email": "adipiscing.fringilla@intuit.com",
 		"applicants": "14"
@@ -14,7 +14,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Contract",
 		"salary": "$52,180.45",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Lectus Ltd",
 		"email": "auctor@intuit.com",
 		"applicants": "5"
@@ -24,7 +24,7 @@ export const  postedData = [
 		"jobtitle": "Backend Engineer",
 		"jobtype": "Full Time",
 		"salary": "$61,406.06",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Magna LLP",
 		"email": "maecenas.ornare@intuit.com",
 		"applicants": "13"
@@ -34,7 +34,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Full Time",
 		"salary": "$39,031.62",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Eleifend Nunc Risus Limited",
 		"email": "donec.felis.orci@intuit.com",
 		"applicants": "1"
@@ -44,7 +44,7 @@ export const  postedData = [
 		"jobtitle": "Senior Engineer",
 		"jobtype": "Part Time",
 		"salary": "$96,544.83",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Luctus Vulputate Incorporated",
 		"email": "dui@intuit.com",
 		"applicants": "13"
@@ -54,7 +54,7 @@ export const  postedData = [
 		"jobtitle": "Backend Engineer",
 		"jobtype": "Full Time",
 		"salary": "$63,815.61",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Mollis Nec Ltd",
 		"email": "erat.vel@intuit.com",
 		"applicants": "6"
@@ -64,7 +64,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Part Time",
 		"salary": "$49,866.69",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Euismod Ac Fermentum Inc.",
 		"email": "justo@intuit.com",
 		"applicants": "15"
@@ -74,7 +74,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Contract",
 		"salary": "$98,986.93",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Eu Company",
 		"email": "maecenas@intuit.com",
 		"applicants": "10"
@@ -114,7 +114,7 @@ export const  postedData = [
 		"jobtitle": "Java Engineer",
 		"jobtype": "Contract",
 		"salary": "$81,917.63",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "Pellentesque Tellus LLC",
 		"email": "enim.non@intuit.com",
 		"applicants": "4"
@@ -124,7 +124,7 @@ export const  postedData = [
 		"jobtitle": "Senior Engineer",
 		"jobtype": "Part Time",
 		"salary": "$22,540.52",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Malesuada Fames Ac Inc.",
 		"email": "est.nunc.ullamcorper@intuit.com",
 		"applicants": "4"
@@ -134,7 +134,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Full Time",
 		"salary": "$50,262.78",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Nulla Integer PC",
 		"email": "donec@intuit.com",
 		"applicants": "9"
@@ -154,7 +154,7 @@ export const  postedData = [
 		"jobtitle": "Staff Software Engineer",
 		"jobtype": "Contract",
 		"salary": "$33,796.21",
-		"skills": "Javascript, Typescript, CSS, React,",
+		"skills": "Javascript, Typescript, CSS, React",
 		"companyname": "Sagittis Incorporated",
 		"email": "nisl.maecenas.malesuada@intuit.com",
 		"applicants": "1"
@@ -184,7 +184,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Part Time",
 		"salary": "$72,066.43",
-		"skills": "Javascript, Typescript,",
+		"skills": "Javascript, Typescript",
 		"companyname": "Ligula Foundation",
 		"email": "diam@intuit.com",
 		"applicants": "14"
@@ -194,7 +194,7 @@ export const  postedData = [
 		"jobtitle": "Java Engineer",
 		"jobtype": "Contract",
 		"salary": "$23,946.67",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "Sit Amet Corp.",
 		"email": "luctus.et@intuit.com",
 		"applicants": "4"
@@ -214,7 +214,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Contract",
 		"salary": "$42,963.91",
-		"skills": "Javascript, Typescript,",
+		"skills": "Javascript, Typescript",
 		"companyname": "Nunc Pulvinar Associates",
 		"email": "in.faucibus@intuit.com",
 		"applicants": "5"
@@ -224,7 +224,7 @@ export const  postedData = [
 		"jobtitle": "Typescript Developer",
 		"jobtype": "Contract",
 		"salary": "$55,270.70",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "Quis Associates",
 		"email": "lorem@intuit.com",
 		"applicants": "10"
@@ -234,7 +234,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Part Time",
 		"salary": "$95,315.28",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Ornare Lectus Limited",
 		"email": "eu@intuit.com",
 		"applicants": "8"
@@ -264,7 +264,7 @@ export const  postedData = [
 		"jobtitle": "Java Engineer",
 		"jobtype": "Contract",
 		"salary": "$71,003.09",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "Id Limited",
 		"email": "orci.tincidunt@intuit.com",
 		"applicants": "3"
@@ -274,7 +274,7 @@ export const  postedData = [
 		"jobtitle": "Senior Engineer",
 		"jobtype": "Part Time",
 		"salary": "$72,569.35",
-		"skills": "Javascript, Typescript,",
+		"skills": "Javascript, Typescript",
 		"companyname": "Pellentesque Ut Corporation",
 		"email": "urna@intuit.com",
 		"applicants": "14"
@@ -284,7 +284,7 @@ export const  postedData = [
 		"jobtitle": "Software Intern",
 		"jobtype": "Part Time",
 		"salary": "$40,394.42",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Posuere Cubilia Curae LLC",
 		"email": "magna@intuit.com",
 		"applicants": "11"
@@ -304,7 +304,7 @@ export const  postedData = [
 		"jobtitle": "Typescript Developer",
 		"jobtype": "Part Time",
 		"salary": "$94,397.53",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Eu Sem Corporation",
 		"email": "urna@intuit.com",
 		"applicants": "9"
@@ -344,7 +344,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Contract",
 		"salary": "$39,302.90",
-		"skills": "Javascript, Typescript, CSS, React,",
+		"skills": "Javascript, Typescript, CSS, React",
 		"companyname": "Donec Corp.",
 		"email": "fermentum.vel.mauris@intuit.com",
 		"applicants": "8"
@@ -354,7 +354,7 @@ export const  postedData = [
 		"jobtitle": "Senior Engineer",
 		"jobtype": "Contract",
 		"salary": "$49,677.00",
-		"skills": "Javascript, Typescript, CSS, React,",
+		"skills": "Javascript, Typescript, CSS, React",
 		"companyname": "Vitae Foundation",
 		"email": "donec.est@intuit.com",
 		"applicants": "7"
@@ -374,7 +374,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Contract",
 		"salary": "$97,714.89",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Ac Industries",
 		"email": "mi.aliquam.gravida@intuit.com",
 		"applicants": "9"
@@ -384,7 +384,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Full Time",
 		"salary": "$49,462.69",
-		"skills": "Javascript, Typescript,",
+		"skills": "Javascript, Typescript",
 		"companyname": "Augue Porttitor Industries",
 		"email": "nec.diam@intuit.com",
 		"applicants": "14"
@@ -394,7 +394,7 @@ export const  postedData = [
 		"jobtitle": "Backend Engineer",
 		"jobtype": "Full Time",
 		"salary": "$30,790.93",
-		"skills": "Javascript, Typescript,",
+		"skills": "Javascript, Typescript",
 		"companyname": "In Magna Associates",
 		"email": "ut@intuit.com",
 		"applicants": "13"
@@ -404,7 +404,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Full Time",
 		"salary": "$65,618.85",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Cursus Company",
 		"email": "pellentesque.ut@intuit.com",
 		"applicants": "6"
@@ -414,7 +414,7 @@ export const  postedData = [
 		"jobtitle": "Backend Engineer",
 		"jobtype": "Contract",
 		"salary": "$82,787.45",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Malesuada PC",
 		"email": "diam.at@intuit.com",
 		"applicants": "7"
@@ -424,7 +424,7 @@ export const  postedData = [
 		"jobtitle": "Staff Software Engineer",
 		"jobtype": "Part Time",
 		"salary": "$50,786.26",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Aliquet Libero Institute",
 		"email": "enim.curabitur@intuit.com",
 		"applicants": "10"
@@ -434,7 +434,7 @@ export const  postedData = [
 		"jobtitle": "Software Intern",
 		"jobtype": "Contract",
 		"salary": "$19,443.69",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Dapibus Quam Industries",
 		"email": "augue.eu@intuit.com",
 		"applicants": "9"
@@ -454,7 +454,7 @@ export const  postedData = [
 		"jobtitle": "Backend Engineer",
 		"jobtype": "Part Time",
 		"salary": "$83,230.99",
-		"skills": "Javascript,",
+		"skills": "Javascript",
 		"companyname": "In Faucibus Limited",
 		"email": "sagittis.felis@intuit.com",
 		"applicants": "3"
@@ -474,7 +474,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Part Time",
 		"salary": "$81,625.10",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "In Scelerisque Scelerisque Institute",
 		"email": "dapibus.quam.quis@intuit.com",
 		"applicants": "1"
@@ -504,7 +504,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Full Time",
 		"salary": "$41,115.64",
-		"skills": "Javascript, Typescript,",
+		"skills": "Javascript, Typescript",
 		"companyname": "Etiam Inc.",
 		"email": "donec.fringilla@intuit.com",
 		"applicants": "1"
@@ -514,7 +514,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Contract",
 		"salary": "$61,438.00",
-		"skills": "Javascript, Typescript, CSS, React,",
+		"skills": "Javascript, Typescript, CSS, React",
 		"companyname": "Tristique Limited",
 		"email": "donec.egestas@intuit.com",
 		"applicants": "10"
@@ -524,7 +524,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Full Time",
 		"salary": "$68,198.52",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Et Commodo At Company",
 		"email": "dui@intuit.com",
 		"applicants": "6"
@@ -534,7 +534,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Part Time",
 		"salary": "$71,201.80",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "In Felis Nulla Industries",
 		"email": "natoque.penatibus@intuit.com",
 		"applicants": "5"
@@ -554,7 +554,7 @@ export const  postedData = [
 		"jobtitle": "Backend Engineer",
 		"jobtype": "Part Time",
 		"salary": "$11,817.98",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Ante Vivamus Non Corp.",
 		"email": "accumsan@intuit.com",
 		"applicants": "1"
@@ -574,7 +574,7 @@ export const  postedData = [
 		"jobtitle": "Typescript Developer",
 		"jobtype": "Contract",
 		"salary": "$13,209.29",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Libero Corp.",
 		"email": "enim.mauris@intuit.com",
 		"applicants": "14"
@@ -584,7 +584,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Part Time",
 		"salary": "$31,846.49",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "In Faucibus Institute",
 		"email": "quisque.fringilla@intuit.com",
 		"applicants": "15"
@@ -594,7 +594,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Part Time",
 		"salary": "$41,442.69",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "Pretium Associates",
 		"email": "massa.suspendisse@intuit.com",
 		"applicants": "2"
@@ -604,7 +604,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Part Time",
 		"salary": "$75,363.42",
-		"skills": "Javascript, Typescript, CSS, React,",
+		"skills": "Javascript, Typescript, CSS, React",
 		"companyname": "Etiam Laoreet Limited",
 		"email": "in.consequat@intuit.com",
 		"applicants": "2"
@@ -624,7 +624,7 @@ export const  postedData = [
 		"jobtitle": "Software Intern",
 		"jobtype": "Full Time",
 		"salary": "$54,249.44",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Aenean Foundation",
 		"email": "nunc.in@intuit.com",
 		"applicants": "11"
@@ -644,7 +644,7 @@ export const  postedData = [
 		"jobtitle": "Backend Engineer",
 		"jobtype": "Contract",
 		"salary": "$784.16",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "Eu Limited",
 		"email": "orci.phasellus.dapibus@intuit.com",
 		"applicants": "13"
@@ -654,7 +654,7 @@ export const  postedData = [
 		"jobtitle": "Backend Engineer",
 		"jobtype": "Contract",
 		"salary": "$82,492.39",
-		"skills": "Javascript,",
+		"skills": "Javascript",
 		"companyname": "Pede Suspendisse Corporation",
 		"email": "metus@intuit.com",
 		"applicants": "5"
@@ -664,7 +664,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Full Time",
 		"salary": "$75,555.81",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Pede Cras Vulputate Incorporated",
 		"email": "etiam@intuit.com",
 		"applicants": "4"
@@ -674,7 +674,7 @@ export const  postedData = [
 		"jobtitle": "Java Engineer",
 		"jobtype": "Part Time",
 		"salary": "$95,187.59",
-		"skills": "Javascript, Typescript,",
+		"skills": "Javascript, Typescript",
 		"companyname": "Commodo Associates",
 		"email": "rhoncus.nullam@intuit.com",
 		"applicants": "1"
@@ -684,7 +684,7 @@ export const  postedData = [
 		"jobtitle": "Senior Engineer",
 		"jobtype": "Full Time",
 		"salary": "$38,995.04",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Eu Tempor Erat Limited",
 		"email": "ipsum.sodales.purus@intuit.com",
 		"applicants": "7"
@@ -694,7 +694,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Full Time",
 		"salary": "$84,755.58",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Ut Institute",
 		"email": "diam.pellentesque@intuit.com",
 		"applicants": "10"
@@ -704,7 +704,7 @@ export const  postedData = [
 		"jobtitle": "Typescript Developer",
 		"jobtype": "Contract",
 		"salary": "$88,466.84",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "In LLP",
 		"email": "risus@intuit.com",
 		"applicants": "4"
@@ -714,7 +714,7 @@ export const  postedData = [
 		"jobtitle": "Senior Engineer",
 		"jobtype": "Contract",
 		"salary": "$74,006.16",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Molestie Sodales Mauris Incorporated",
 		"email": "morbi.vehicula@intuit.com",
 		"applicants": "5"
@@ -724,7 +724,7 @@ export const  postedData = [
 		"jobtitle": "Staff Software Engineer",
 		"jobtype": "Part Time",
 		"salary": "$56,732.80",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Feugiat Institute",
 		"email": "aliquam.ultrices@intuit.com",
 		"applicants": "12"
@@ -754,7 +754,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Full Time",
 		"salary": "$38,824.17",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Interdum Enim Company",
 		"email": "vel@intuit.com",
 		"applicants": "9"
@@ -764,7 +764,7 @@ export const  postedData = [
 		"jobtitle": "Java Engineer",
 		"jobtype": "Contract",
 		"salary": "$26,937.51",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Vitae Institute",
 		"email": "mi.lacinia@intuit.com",
 		"applicants": "5"
@@ -774,7 +774,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Part Time",
 		"salary": "$76,404.31",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Urna Ut Ltd",
 		"email": "non.justo@intuit.com",
 		"applicants": "4"
@@ -784,7 +784,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Contract",
 		"salary": "$90,944.25",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Arcu Company",
 		"email": "a.nunc@intuit.com",
 		"applicants": "0"
@@ -794,7 +794,7 @@ export const  postedData = [
 		"jobtitle": "Java Engineer",
 		"jobtype": "Contract",
 		"salary": "$78,460.38",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Nunc Mauris Sapien Corp.",
 		"email": "vitae.aliquam@intuit.com",
 		"applicants": "5"
@@ -804,7 +804,7 @@ export const  postedData = [
 		"jobtitle": "Typescript Developer",
 		"jobtype": "Full Time",
 		"salary": "$38,329.16",
-		"skills": "Javascript, Typescript,",
+		"skills": "Javascript, Typescript",
 		"companyname": "A Nunc In Ltd",
 		"email": "amet.massa@intuit.com",
 		"applicants": "15"
@@ -814,7 +814,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Part Time",
 		"salary": "$69,606.41",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Quis Corporation",
 		"email": "nam.consequat@intuit.com",
 		"applicants": "1"
@@ -824,7 +824,7 @@ export const  postedData = [
 		"jobtitle": "Staff Software Engineer",
 		"jobtype": "Part Time",
 		"salary": "$72,222.19",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "Volutpat Nunc Sit LLC",
 		"email": "eget.dictum@intuit.com",
 		"applicants": "1"
@@ -834,7 +834,7 @@ export const  postedData = [
 		"jobtitle": "Senior Engineer",
 		"jobtype": "Part Time",
 		"salary": "$35,276.26",
-		"skills": "Javascript, Typescript, CSS,",
+		"skills": "Javascript, Typescript, CSS",
 		"companyname": "Diam Pellentesque Inc.",
 		"email": "eget.massa@intuit.com",
 		"applicants": "2"
@@ -844,7 +844,7 @@ export const  postedData = [
 		"jobtitle": "Frontend Engineer",
 		"jobtype": "Part Time",
 		"salary": "$49,919.16",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java",
 		"companyname": "Vivamus Euismod Urna Corporation",
 		"email": "gravida@intuit.com",
 		"applicants": "14"
@@ -854,7 +854,7 @@ export const  postedData = [
 		"jobtitle": "Typescript Developer",
 		"jobtype": "Full Time",
 		"salary": "$72,082.12",
-		"skills": "Javascript, Typescript, CSS, React,",
+		"skills": "Javascript, Typescript, CSS, React",
 		"companyname": "Dapibus Rutrum Justo Incorporated",
 		"email": "egestas.aliquam@intuit.com",
 		"applicants": "8"
@@ -874,7 +874,7 @@ export const  postedData = [
 		"jobtitle": "Typescript Developer",
 		"jobtype": "Contract",
 		"salary": "$1,916.95",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Sem Molestie Sodales Corp.",
 		"email": "lorem.ac@intuit.com",
 		"applicants": "14"
@@ -884,7 +884,7 @@ export const  postedData = [
 		"jobtitle": "Staff Software Engineer",
 		"jobtype": "Full Time",
 		"salary": "$88,453.63",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Enim Associates",
 		"email": "at@intuit.com",
 		"applicants": "0"
@@ -894,7 +894,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Part Time",
 		"salary": "$82,484.09",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Nisi Magna Inc.",
 		"email": "cras@intuit.com",
 		"applicants": "11"
@@ -904,7 +904,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Full Time",
 		"salary": "$26,704.03",
-		"skills": "Javascript, Typescript,",
+		"skills": "Javascript, Typescript",
 		"companyname": "A Industries",
 		"email": "tellus.nunc.lectus@intuit.com",
 		"applicants": "4"
@@ -914,7 +914,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Full Time",
 		"salary": "$45,276.71",
-		"skills": "Javascript, Typescript, CSS, React,",
+		"skills": "Javascript, Typescript, CSS, React",
 		"companyname": "Semper Erat Corporation",
 		"email": "odio.phasellus@intuit.com",
 		"applicants": "4"
@@ -924,7 +924,7 @@ export const  postedData = [
 		"jobtitle": "Senior UI Engineer",
 		"jobtype": "Full Time",
 		"salary": "$27,145.90",
-		"skills": "Javascript, Typescript, CSS, React,",
+		"skills": "Javascript, Typescript, CSS, React",
 		"companyname": "Nunc Sollicitudin Corp.",
 		"email": "quis.massa@intuit.com",
 		"applicants": "12"
@@ -944,7 +944,7 @@ export const  postedData = [
 		"jobtitle": "Software Developer",
 		"jobtype": "Part Time",
 		"salary": "$63,912.13",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Est Nunc Corp.",
 		"email": "turpis@intuit.com",
 		"applicants": "7"
@@ -954,7 +954,7 @@ export const  postedData = [
 		"jobtitle": "Staff Software Engineer",
 		"jobtype": "Full Time",
 		"salary": "$32,981.27",
-		"skills": "Javascript, Typescript, CSS, React, Angular,",
+		"skills": "Javascript, Typescript, CSS, React, Angular",
 		"companyname": "Orci Lacus Vestibulum Corp.",
 		"email": "suspendisse.commodo.tincidunt@intuit.com",
 		"applicants": "8"
@@ -984,7 +984,7 @@ export const  postedData = [
 		"jobtitle": "Senior Engineer",
 		"jobtype": "Part Time",
 		"salary": "$25,434.24",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Aliquet Nec Foundation",
 		"email": "dictum.sapien@intuit.com",
 		"applicants": "12"
@@ -994,7 +994,7 @@ export const  postedData = [
 		"jobtitle": "Senior Engineer",
 		"jobtype": "Contract",
 		"salary": "$30,857.20",
-		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot,",
+		"skills": "Javascript, Typescript, CSS, React, Angular, Java, Springboot",
 		"companyname": "Risus Donec Egestas LLC",
 		"email": "malesuada.fames@intuit.com",
 		"applicants": "1"
