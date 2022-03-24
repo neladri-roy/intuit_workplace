@@ -12,7 +12,6 @@ export const Wrapper = styled.div`
 
 
 export const HeaderContainer = styled.div`
-height: 15vh;
 position:sticky;
 width: 100%;
 padding: 10px;
