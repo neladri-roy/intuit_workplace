@@ -81,6 +81,7 @@ const Freelancer = (props) => {
             position: "absolute",
             width: "300px",
             top: 0,
+            zIndex: -1,
             right: 0,
           }}
         ></div>

@@ -24,7 +24,7 @@ function App() {
         <GlobalStyle />
         <Container>
         <Header/>
-        <FiMoon style={{top: "3%", left: "25%",position: "fixed", fontSize: "25px",cursor:"pointer"}} onClick={() => themeToggler()}></FiMoon>
+        <FiMoon style={{top: "3%", left: "25%",position: "fixed",zIndex: -1, fontSize: "25px",cursor:"pointer"}} onClick={() => themeToggler()}></FiMoon>
         </Container>
        
         
