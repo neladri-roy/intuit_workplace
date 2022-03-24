@@ -24,7 +24,7 @@ const Applicant = () => {
             Hi, Thank you for visiting my page. Myself <span>{applicant.applicantname}</span>, <span>{applicant.jobtitle}</span> by profression. 
             I'm currently working with <span>{applicant.companyname}</span>. My expertise in various areas of technology includes <span>{applicant.skills}</span>. 
 
-            If you would like to get in touch with me, shoot me an <i >{applicant.email}</i>
+            If you would like to get in touch with me, shoot me an email :  <i >{applicant.email}</i>
             </h4>
         </Card>
      </Container>

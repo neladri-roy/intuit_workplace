@@ -1,5 +1,5 @@
 import React from 'react'
-import { BannerContainer, BannerTitle, BoldText, BannerBody } from './Banner.style'
+import { BannerContainer, BannerTitle, BannerBody } from './Banner.style'
 import BannerLogo from "../../assets/landing.png"
 import { Section, StyledButton } from "../../common/commonStyle"
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ const BannerCenter = () => {
       <div
           style={{
             background: `url(${BannerLogo})`,
-            height: "100%",
+            height: "100vh",
             position: "absolute",
             width: "500px",
             top: 0,

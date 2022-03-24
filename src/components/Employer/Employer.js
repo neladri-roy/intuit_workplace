@@ -12,7 +12,6 @@ import {
 } from "../../common/commonStyle";
 import { postedData } from "./EmployerData";
 import {
-  JobCompany,
   JobSection,
   JobTitle,
   JobType,
@@ -21,7 +20,6 @@ import {
 } from "./Employer.style";
 import { Link } from "react-router-dom";
 import { JobInput } from "../JobListings/JobTable.style";
-import { Title } from "../Header/Header.style";
 import EmployerImg from "../../assets/banner-img-3.png";
 import { Table } from "../Applicants";
 
@@ -42,13 +40,13 @@ const Employer = () => {
 
   return (
     <div style={{margin:"15vh 25px", padding:"10px"}}>
-      <Container>
+      <Container style={{margin: 0}}>
         <div
           style={{
             background: `url(${EmployerImg})`,
             height: "100vh",
             position: "absolute",
-            width: "500px",
+            width: "400px",
             top: 0,
             right: 0,
           }}
@@ -61,7 +59,7 @@ const Employer = () => {
             placeholder="Search Jobs"
             onChange={(e) => setSearchPostTxt(e.target.value)}
           />
-          {/* <Title>Employer Dashboard</Title> */}
+         
         </SecHeader>
   
         <Table>

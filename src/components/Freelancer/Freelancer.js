@@ -11,6 +11,8 @@ import {
   ProfileBtn,
   CloseModal,
 } from "./Freelancer.style";
+
+import { FiSettings } from 'react-icons/fi';
 import FreelancerLogo from "../../assets/image.png";
 import Modal from "react-modal";
 import JobTable from "../JobListings/JobTable";
@@ -56,6 +58,7 @@ const Freelancer = (props) => {
       setValidGithub("https://api.github.com/users/"+ values.github + "/repos");
     })
     .catch(error => {
+      setValidGithub(false);
       alert('Invalid URL. Reponse code: ', error);
   });
     console.log(validGithub);
@@ -73,9 +76,9 @@ const Freelancer = (props) => {
         <div
           style={{
             background: `url(${FreelancerLogo})`,
-            height: "300px",
+            height: "100vh",
             position: "absolute",
-            width: "500px",
+            width: "300px",
             top: 0,
             right: 0,
           }}
@@ -136,25 +139,16 @@ const Freelancer = (props) => {
                 name="skills"
               ></Input>
               
-              <div>
-              
-              {/* {githubProfiles &
-                githubProfiles.map((profile)=>(
-                  <span>{`${profile.name}`}</span>
-              ))} */}
-                 
-              </div>
+            
             </form>
             <SearchBtn>Save</SearchBtn>
           </Modal>
-          {/* <Input type="text" placeholder="Find Jobs"></Input>
-          <SearchBtn>Find Jobs</SearchBtn> */}
+        
            
         </SearchContainer>
         
-        <Container style={{display:"flex"}}>
-            <ProfileBtn onClick={() => setModalIsOpen(true)}>Settings</ProfileBtn>
-        </Container>
+        <FiSettings style={{top: "50%", left: "10px",position: "fixed", fontSize: "25px",cursor:"pointer"}} onClick={() => setModalIsOpen(true)}></FiSettings>
+       
         <JobTable />
       </Container>
     </Fragment>

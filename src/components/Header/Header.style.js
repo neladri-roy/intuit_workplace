@@ -15,6 +15,8 @@ export const HeaderContainer = styled.div`
 height: 15vh;
 position:sticky;
 width: 100%;
+padding: 10px;
+background-color: ${(props) => props.theme.BodyColor};
 `;
 
 
@@ -22,6 +24,5 @@ export const Title = styled.h1`
     color: ${(props) => props.theme.TitleColor};
     font-weight: 600;
     font-size: 3.6rem;
-    padding: 2rem 2rem;
 `
 

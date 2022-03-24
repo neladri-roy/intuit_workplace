@@ -17,6 +17,7 @@ import {
   JobCompany,
 } from "../Employer/Employer.style";
 import { HeaderContainer, Title } from "../Header/Header.style";
+
 import { ApplyBtn, JobInput } from "./JobTable.style";
 import { jobData } from "./JobData";
 import { Table } from "../Applicants";
@@ -38,14 +39,19 @@ const JobTable = () => {
   },[])
 
   return (
-    <>
-      <SecHeader style={{ margin: "2rem" }}>
+    <div style={{padding:"10px"}}>
+    
+    <h1><span>Profile: </span>Neladri Roy</h1>
+      <div style={{marginTop:"25px"}}>
+      <SecHeader>
+       
         <JobInput
           placeholder="Search Jobs"
           onChange={(e) => setSearchText(e.target.value)}
         />
-        <Title style={{ float: "center" }}>Freelancer Dashboard</Title>
+         
       </SecHeader>
+      </div>
       <Table>
         {jobslist?.map((job) => (
           <Card>
@@ -60,8 +66,9 @@ const JobTable = () => {
                 <a
                   
                   href={`${job.joburl}`}
-                  target="_blank"
-                ><StyledButton>
+                  target="_blank" rel="noreferrer"
+                >
+                  <StyledButton>
                   Apply
                   </StyledButton>
                 </a>
@@ -70,7 +77,7 @@ const JobTable = () => {
           </Card>
         ))}
       </Table>
-    </>
+    </div>
   );
 };
 
