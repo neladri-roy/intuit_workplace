@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import {
   Container,
   SecHeader,
@@ -16,11 +16,21 @@ import {
 import { Link } from "react-router-dom";
 import { JobInput } from "../JobListings/JobTable.style";
 import EmployerImg from "../../assets/banner-img-3.png";
+import debounce from 'lodash.debounce';
 
 const Employer = () => {
   const [searchPostTxt, setSearchPostTxt] = useState("");
   const [data, setData] = useState([]);
+  const handleSearch = (event) => {
+    
+    setSearchPostTxt(event.target.value);
+  };
 
+  const debouncedTextSearch = useMemo(
+    () => debounce(handleSearch, 600)
+  , []);
+
+  
   useEffect(() => {
     const filteredData = postedData.filter((job) =>
       job.jobtitle.toLowerCase().includes(searchPostTxt.toLowerCase())
@@ -31,6 +41,13 @@ const Employer = () => {
   useEffect(() =>{
     setData(postedData);
   },[]);
+
+  useEffect(() => {
+    return () => {
+      debouncedTextSearch.cancel();
+    }
+  }, []); 
+
 
   return (
     <div style={{margin:"15vh 25px", padding:"10px"}}>
@@ -54,7 +71,7 @@ const Employer = () => {
         <SecHeader>
           <JobInput
             placeholder="Search Jobs"
-            onChange={(e) => setSearchPostTxt(e.target.value)}
+            onChange={debouncedTextSearch}
           />
          
         </SecHeader>

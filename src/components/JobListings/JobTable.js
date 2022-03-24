@@ -1,11 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect, useMemo } from "react";
 import {
-  Section,
   StyledButton,
-  Input,
   Card,
-  Container,
   SecHeader,
 } from "../../common/commonStyle"
 import {
@@ -16,16 +12,20 @@ import {
   JobTitle,
   JobCompany,
 } from "../Employer/Employer.style";
-import { HeaderContainer, Title } from "../Header/Header.style";
+import debounce from 'lodash.debounce';
 
-import { ApplyBtn, JobInput } from "./JobTable.style";
+import { JobInput } from "./JobTable.style";
 import { jobData } from "./JobData";
-import { Table } from "../Applicants";
 
 const JobTable = () => {
   const [jobslist, setJobslist] = useState([]);
   const [searchText, setSearchText] = useState("");
   //console.log(jobslist);
+  const handleTextSearch = (e) => {
+    setSearchText(e.target.value);
+  }
+
+  const debouncedTextSearch = useMemo(() =>  debounce(handleTextSearch, 600), []);
 
   useEffect(() => {
     const filteredData = jobData.filter((job) =>
@@ -47,7 +47,7 @@ const JobTable = () => {
        
         <JobInput
           placeholder="Search Jobs"
-          onChange={(e) => setSearchText(e.target.value)}
+          onChange={debouncedTextSearch}
         />
          
       </SecHeader>
