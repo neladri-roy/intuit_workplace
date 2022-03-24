@@ -58,8 +58,9 @@ const Freelancer = (props) => {
       setValidGithub("https://api.github.com/users/"+ values.github + "/repos");
     })
     .catch(error => {
+      alert('No Valid github profile found with username ' + values.github) ;
       setValidGithub(false);
-      alert('Invalid URL. Reponse code: ', error);
+      
   });
     console.log(validGithub);
   }
@@ -86,8 +87,8 @@ const Freelancer = (props) => {
         {/* <FreelancerImage src={FreelancerLogo} alt="logo"></FreelancerImage> */}
         
         <SearchContainer>
-          <Modal isOpen={modalIsOpen} ariaHideApp={false} style={{color: `${(props) => props.theme.BodyColor}`}}>
-            <CloseModal onClick={() => setModalIsOpen(false)}>X</CloseModal>
+          <Modal isOpen={modalIsOpen} ariaHideApp={false} style={{backgroundColor: `${(props) => props.theme.BodyColor}`}}>
+            <CloseModal onClick={() => setModalIsOpen(false)} style={{backgroundColor: 'transparent'}}>X</CloseModal>
 
             <Label>Profile Settings</Label>
             <Input
