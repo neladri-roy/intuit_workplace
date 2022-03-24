@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
    
-display: flex;
+display: inherit;
 align-items: center;
 text-align: center;
 
