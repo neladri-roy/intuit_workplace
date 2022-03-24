@@ -16,6 +16,7 @@ const BannerCenter = () => {
             position: "absolute",
             width: "500px",
             top: 0,
+            backgroundRepeat: "no-repeat",
             opacity: 0.2,
             zIndex: -1,
             right: 0,

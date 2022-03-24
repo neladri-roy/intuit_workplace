@@ -49,6 +49,7 @@ const Employer = () => {
             width: "400px",
             top: 0,
             opacity: 0.2,
+            backgroundRepeat: "no-repeat",
             zIndex: -1,
             right: 0,
           }}
