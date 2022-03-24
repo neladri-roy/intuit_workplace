@@ -52,16 +52,16 @@ const JobTable = () => {
          
       </SecHeader>
       </div>
-      <Table>
+      <div>
         {jobslist?.map((job) => (
-          <Card>
+          <Card key={job.jobid}>
             <JobSection>
-              <JobTitle key={job.jobtitle}> {`${job.jobtitle}`}</JobTitle>
-              <JobCompany key={job.company}>{`${job.company}`}</JobCompany>
+              <JobTitle> {`${job.jobtitle}`}</JobTitle>
+              <JobCompany>{`${job.company}`}</JobCompany>
 
-              <SkillsSection key={job.skills}> {`${job.skills}`}</SkillsSection>
-              <SalarySection key={job.salary}> {`${job.salary}`}</SalarySection>
-              <JobType key={job.jobtype}>{`${job.jobtype}`}</JobType>
+              <SkillsSection> {`${job.skills}`}</SkillsSection>
+              <SalarySection> {`${job.salary}`}</SalarySection>
+              <JobType>{`${job.jobtype}`}</JobType>
               
                 <a
                   
@@ -76,7 +76,7 @@ const JobTable = () => {
             </JobSection>
           </Card>
         ))}
-      </Table>
+      </div>
     </div>
   );
 };

@@ -8,7 +8,6 @@ import {
 import {
   SearchContainer,
   SearchBtn,
-  ProfileBtn,
   CloseModal,
 } from "./Freelancer.style";
 

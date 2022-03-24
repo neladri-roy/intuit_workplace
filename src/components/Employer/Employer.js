@@ -1,14 +1,9 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Container,
-  Label,
   SecHeader,
   StyledButton,
-  Input,
-  StyledTable,
-  Row,
   Card,
-  ThinBorder,
 } from "../../common/commonStyle";
 import { postedData } from "./EmployerData";
 import {
@@ -21,7 +16,6 @@ import {
 import { Link } from "react-router-dom";
 import { JobInput } from "../JobListings/JobTable.style";
 import EmployerImg from "../../assets/banner-img-3.png";
-import { Table } from "../Applicants";
 
 const Employer = () => {
   const [searchPostTxt, setSearchPostTxt] = useState("");
@@ -65,22 +59,22 @@ const Employer = () => {
          
         </SecHeader>
   
-        <Table>
+        <div>
         
           {data?.map((job) => (
-            <Card>
-              <JobSection>
-                <JobTitle key={job.jobtitle}> {`${job.jobtitle}`}</JobTitle>
-                <SkillsSection key={job.skills}> {`${job.skills}`}</SkillsSection>
-                <SalarySection key={job.salary}> {`${job.salary}`}</SalarySection>
-                <JobType key={job.jobtype}>{`${job.jobtype}`}</JobType>
-                <Link to="/applicants" state={{ ...job }}>
+            <Card key={job.postid} >
+              <JobSection >
+                <JobTitle> {`${job.jobtitle}`}</JobTitle>
+                <SkillsSection> {`${job.skills}`}</SkillsSection>
+                <SalarySection> {`${job.salary}`}</SalarySection>
+                <JobType>{`${job.jobtype}`}</JobType>
+                <Link  to="/applicants" state={{ ...job }}>
                   <StyledButton>Check Applicants</StyledButton>
                 </Link>
               </JobSection>
             </Card>
           ))}
-        </Table>
+        </div>
       </div>
       
     </div>
